@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title></title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+  <style>
+.slides {display:none;}
+</style>
+  
+<body>
+    <div class="pageWrap">
+    <header>
+      <div class="name">
+      <p>Jeremy<br>Rigling</p>
+        </div>
+      <div class="skills">
+        <p>Recording, Mixing, Production, Live Sound, Sound Design</p>
+      </div>
+      <nav class="navigation">
+        <ui>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="bio.html">BIO</a></li>
+        <li><a href="music.html">MUSIC</a></li>
+        <li><a href="soundDesign.html">SOUND DESIGN</a></li>
+        </ui>
+      </nav>
+      </header>
+    <div class="comingSoon">
+      <h1>COMING SOON...</h1>
+      </div>
+  
+  
+  
+  
+  
+  
+  <footer><p>jeremyrigling@yahoo.com</p></footer>
+  
+  
+  </div>
+  <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+</body>  
+</html>
