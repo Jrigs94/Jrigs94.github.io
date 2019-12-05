@@ -109,6 +109,7 @@ footer{
   height:auto;
   width:100%;
   text-align: center;
+  background-color:black;
 }
 .fade {
   -webkit-animation-name: fade;
