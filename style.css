@@ -132,9 +132,3 @@ footer{
   from {opacity: .4} 
   to {opacity: 1}
 }
-.audioPlayer{
-  position:relative;
-  height:50px;
-  width:100%;
-  background-color:blue;
-}
